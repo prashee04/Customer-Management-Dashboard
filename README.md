@@ -1,7 +1,7 @@
 # CRM Dashboard
 
-Live Preview: https://customer-management-dashboard-n.netlify.app/
-Backend URL: https://customer-management-dashboard-arun.onrender.com
+- Live Preview: https://customer-management-dashboard-n.netlify.app
+- Backend URL: https://customer-management-dashboard-arun.onrender.com
 
 A simple yet powerful full-stack customer management application built with React and Express.js. Manage your customers efficiently with an intuitive UI and robust API.
 
