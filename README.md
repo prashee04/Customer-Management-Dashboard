@@ -1,5 +1,7 @@
 # CRM Dashboard
 
+Live Preview: https://customer-management-dashboard-n.netlify.app/
+
 A simple yet powerful full-stack customer management application built with React and Express.js. Manage your customers efficiently with an intuitive UI and robust API.
 
 ## 📝 Overview
@@ -245,22 +247,6 @@ REACT_APP_API_URL=http://localhost:5000
 4. Add environment variables:
    - `REACT_APP_API_URL`: Your backend URL
 5. Deploy
-
-### Option 2: Deploy Frontend on Netlify (Backend on Render)
-
-1. Push your code to GitHub
-2. Go to [Netlify](https://app.netlify.com)
-3. Click "Add new site" → "Import an existing project"
-4. Connect your GitHub account and select repository
-5. Configure:
-   - **Base directory**: `frontend`
-   - **Build command**: `npm run build`
-   - **Publish directory**: `build`
-6. Add environment variable:
-   - `REACT_APP_API_URL`: Your Render backend URL
-7. Deploy
-
----
 
 ## ⚠️ Assumptions & Limitations
 
