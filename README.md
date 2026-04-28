@@ -1,6 +1,7 @@
 # CRM Dashboard
 
 Live Preview: https://customer-management-dashboard-n.netlify.app/
+Backend URL: https://customer-management-dashboard-arun.onrender.com
 
 A simple yet powerful full-stack customer management application built with React and Express.js. Manage your customers efficiently with an intuitive UI and robust API.
 
@@ -239,7 +240,7 @@ REACT_APP_API_URL=http://localhost:5000
 #### Frontend Deployment
 
 1. Click "New" → "Static Site"
-2. Connect the same GitHub repository
+2. Connect to the same GitHub repository
 3. Configure:
    - **Root Directory**: `frontend`
    - **Build Command**: `npm run build`
@@ -252,6 +253,6 @@ REACT_APP_API_URL=http://localhost:5000
 
 - **In-Memory Storage**: Customer data is stored in memory and resets when the server restarts. No persistent database is used.
 - **Development Only**: This app is intended for local development and demonstration purposes, not production use.
-- **No Authentication**: The API has no authentication or authorization mechanisms. Anyone with access to the API can view/modify customers.
+- **No Authentication**: The API has no authentication or authorisation mechanisms. Anyone with access to the API can view/modify customers.
 - **CORS Enabled**: The backend allows requests from all origins (`*`). In production, restrict this to your frontend domain.
 - **Single User**: The app assumes a single user and does not support multi-user scenarios.
